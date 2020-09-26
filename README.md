@@ -1,10 +1,10 @@
 # Guia do Desenvolvedor Hyerdev
 Seja bem-vindo a Hyerdev!
 
-Neste guia iremos passar por cima das boas práticas de desenvolvimento de software que nós adotamos e que o livro código limpo ensina. O Clean Code é uma pratica muito bem vista no mercado pois melhora a legibilidade, manutenibilidade e reuso do código. Prolongando significativamente a vida útil de um produto de software.
+Neste guia iremos mostrar algumas das boas práticas de desenvolvimento de software que o livro código limpo ensina e que nós adotamos. Clean Code é uma pratica muito bem vista no mercado pois melhora a legibilidade, manutenibilidade e reuso do código. Prolongando significativamente a vida útil de um produto de software.
 
 
-## Código Limpo
+## Sobre o livro Clean Code
 Para que você entenda melhor o objetivo deste guia, teremos uma breve abordagem sobre Clean Code. De acordo com o livro "*Código Limpo*" de *Robert C. Martin*, um código limpo é um código elegante, legível e que definitivamente foi cuidado e recebeu a atenção de algum profissional.
 
 Para te ajudar a entender um pouco mais sobre esse conteúdo, te recomendamos essa playlist de videos do Felipe Deschamps:
