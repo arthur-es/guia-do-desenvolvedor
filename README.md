@@ -5,13 +5,14 @@ Neste guia iremos passar por cima das boas práticas de desenvolvimento de softw
 
 
 ## Código Limpo
-Para que o leitor entenda melhor o objetivo deste guia, teremos uma breve abordagem sobre código limpo. Primeiramente, o que seria um código limpo? De acordo com o livro "*Código Limpo*" de *Robert C. Martin*, um código limpo é um código elegante, legível e que definitivamente foi cuidado e recebeu a atenção de algum profissional.
+Para que você entenda melhor o objetivo deste guia, teremos uma breve abordagem sobre Clean Code. De acordo com o livro "*Código Limpo*" de *Robert C. Martin*, um código limpo é um código elegante, legível e que definitivamente foi cuidado e recebeu a atenção de algum profissional.
 
 Para te ajudar a entender um pouco mais sobre esse conteúdo, te recomendamos essa playlist de videos do Felipe Deschamps:
 
-![Alt ou título da imagem](URL da imagem)
+![Miniatura do vídeo do Felipe Deschamps sobre o livro Clean Code](https://github.com/arthur-es/guia-do-desenvolvedor/blob/master/cleancode.png?raw=true)
 
-https://www.youtube.com/watch?v=9w3o9NHXqu0&list=PLMdYygf53DP5Sc6yFYs6ZmjsuuA2fu0TK&ab_channel=FilipeDeschamps
+[Link para a playlist: Clean Code - Felipe Deschamps](https://www.youtube.com/watch?v=9w3o9NHXqu0&list=PLMdYygf53DP5Sc6yFYs6ZmjsuuA2fu0TK&ab_channel=FilipeDeschamps)
+
 
 Mas por que devemos nos preocupar em cuidar de um código? Só para um futuro desenvolvedor conseguir ler o seu trabalho? Não só isso, um código sujo pode trazer inúmeros problemas a longo prazo, o custo de manutenção de um sistema tende a subir exponencialmente da mesma forma que o débito técnico sobre aquele código.
 
