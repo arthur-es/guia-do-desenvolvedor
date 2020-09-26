@@ -28,7 +28,9 @@ Algumas questões depende da linguagem com qual você está trabalhando, como po
 Portanto, não será abordado neste guia as boas práticas específicas de alguma linguagem, mas sim questões que podem ser tratadas em qualquer uma.
 
 ### Nomeando variáveis
-Nomear uma variável nunca é uma tarefa fácil, uma vez que é necessário atribuir um nome que explicite sua função/necessidade. O tipo da variável pode ajudar nesses casos, por exemplo:
+Aqui na empresa, nós **sempre programamos em Inglês**, somente os comentários podem ser escritos em português.
+
+Nomear uma variável **nunca é uma tarefa fácil**, uma vez que é necessário atribuir um nome que explicite sua função/necessidade. O tipo da variável pode ajudar nesses casos, por exemplo:
 
     activeModal: boolean
 
@@ -41,7 +43,7 @@ Porém este nome não sugere o que está ativo ou não, além da palavra "*is*" 
 Da mesma forma que ocorre com as variáveis, uma função deve ter seu nome definido de acordo com o seu papel naquele meio, podemos utilizar os parâmetros recebidos e seu conteúdo de retorno para auxiliar em sua nomeação. Vamos a um exemplo:
 
     getLoggedUserName(): String {
-	    return 'Hyago';
+	    return 'Arthur';
     }
     
     concatNames(first: String, second: String): String {
@@ -59,15 +61,15 @@ Código sujo deste segundo método acima:
 ### Nomeando Entidades
 Entidades e objetos são, talvez, os mais fáceis de se nomear, talvez pelo fato de surgirem de acordo com o negócio o problema do software. Se for uma entidade a ser estendida, que ela tenha seu nome genérico para que isso possa ser notado, como por exemplo:
 
-    Usuario {}
-    Aluno extends Usuario {}
-    Professor extends Usuario {}
+    User {}
+    Student extends User {}
+    Teacher extends User {}
 
 Uma prática ruim e que prejudica o código seria fazer o seguinte: 
 
-    EntidadePessoa {}
-    Aluno extends EntidadePessoa {}
-    Professor extends EntidadePessoa {}
+    EntityPerson {}
+    Student extends EntityPerson {}
+    Teacher extends EntityPerson {}
 
 Não há a necessidade de deixar a nomenclatura tão estranha e genérica a fim de demonstrar algo que já existe um nome conhecido e comum, então a dica é, não invente nomes ou definições que estão fora do mercado ou do senso comum, pois só você saberá o que é.
 
@@ -82,14 +84,14 @@ Caso seja necessário categorizar algo em seu código, use *Enum*, o código fic
 
 Caso você tenha uma função onde:
 
-    retornaBoleano(value: Boolean): Boolean {
+    returnBoolean(value: Boolean): Boolean {
 	    if (value) { return true; }
 	    else { return false }
     }
 
 Você pode simplificar e deixar esta função mais elegante fazendo:
 
-    retornaBoleano(value: Boolean): Boolean {
+    returnBoolean(value: Boolean): Boolean {
 	    return value
     }
 
